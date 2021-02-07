@@ -1,0 +1,38 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 9 products, 3 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Functions.scala, ${BASE}/src/main/scala/Hello.scala, ${BASE}/src/main/scala/val.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Functions.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/Functions$.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Functions.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/Functions$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Functions)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/Functions.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(Functions)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Functions.scala)
+[debug] Initial set of included nodes: Functions
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.4:compile for Scala 2.13.4
+[debug] [zinc] Running cached compiler 5681d430 for Scala compiler version 2.13.4
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes;C:\Users\profa\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.4\scala-library-2.13.4.jar
+[debug] 	-classpath
+[debug] 	C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 5.3890848 s
+[info] done compiling

@@ -1,0 +1,21 @@
+[debug] Packaging C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\week1_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Functions$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes\Functions$.class
+[debug] 	Functions$delayedInit$body.class
+[debug] 	  C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes\Functions$delayedInit$body.class
+[debug] 	Functions.class
+[debug] 	  C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes\Functions.class
+[debug] 	Hello$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes\Hello$.class
+[debug] 	Hello$delayedInit$body.class
+[debug] 	  C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes\Hello$delayedInit$body.class
+[debug] 	Hello.class
+[debug] 	  C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes\Hello.class
+[debug] 	Val$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes\Val$.class
+[debug] 	Val$delayedInit$body.class
+[debug] 	  C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes\Val$delayedInit$body.class
+[debug] 	Val.class
+[debug] 	  C:\Users\profa\Desktop\Scala\Week2\target\scala-2.13\classes\Val.class
+[debug] Done packaging.
