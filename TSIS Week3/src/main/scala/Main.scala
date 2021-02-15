@@ -56,6 +56,42 @@ object Main extends App{
       }
       A(pos)
     }
-
+    //5
+      def decompressRLElist(nums: Array[Int]): Array[Int] = {
+        var k = 0
+        var cnt = 0
+        for (i <- 0 to nums.length-1 by 2){
+          cnt = cnt + nums(i)
+        }
+        var newArr: Array[Int] = new Array[Int](cnt)
+        for (i <- 0 to nums.length-1 by 2){
+          for (j <- 0 until nums(i)){
+            newArr(k) = nums(i+1)
+            k = k + 1
+          }
+        }
+        newArr
+      }
+    //6
+      def sumZero(n: Int): Array[Int] = {
+        var newArr: Array[Int] = new Array[Int](n)
+        var k = n
+        if(n%2 == 0){
+          for(i <- 0 to (n-1)/2){
+            newArr(i) = -k
+            newArr(n-i-1) = k
+            k = k - 1
+          }
+        }
+        else{
+          for(i <- 0 until (n-1)/2){
+            newArr(i) = -k
+            newArr(n-i-1) = k
+            k = k - 1
+          }
+          newArr((n-1)/2) = 0
+        }
+        newArr
+      }
 
 }
