@@ -18,6 +18,21 @@ object Main extends App{
       }
       output
     }
+    //2
+      def getDecimalValue(head: ListNode): Int = {
+        var x=0
+        var i =head
+        while(i.next != null){
+          x += 1
+          i = i.next
+        }
+        if (head.next == null){
+          head.x*scala.math.pow(2,0).toInt
+        }
+        else {
+          head.x*scala.math.pow(2,x).toInt+getDecimalValue(head.next)
+        }
+      }
     //3
     def smallerNumbersThanCurrent(nums: Array[Int]): Array[Int] = {
       var cnt = 0
@@ -126,5 +141,25 @@ object Main extends App{
     //9
       def intersection(nums1: Array[Int], nums2: Array[Int]): Array[Int] = {
         (nums1 intersect nums2)
+      }
+    //10
+      import scala.collection.mutable.ListBuffer
+      def buildArray(target: Array[Int], n: Int): List[String] = {
+        var output = new ListBuffer[String]()
+        var a = 1
+        var b = 0
+        while(b < target.length){
+          output.append("Push")
+          if(a != target(b)){
+            output.append("Pop")
+            a += 1
+          }
+          else{
+            a += 1
+            b += 1
+          }
+        }
+        val outputList = output.toList
+        outputList
       }
 }
