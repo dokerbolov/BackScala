@@ -93,5 +93,38 @@ object Main extends App{
         }
         newArr
       }
-
+    //7
+      def kWeakestRows(mat: Array[Array[Int]], k: Int): Array[Int] = {
+        var newArr: Array[Int] = new Array[Int](mat.length)
+        var output: Array[Int] = new Array[Int](k)
+        var sum = 0
+        var cnt = 0
+        var min = 101
+        var perm = -1
+        for(i <- 0 to mat.length-1){
+          for( j <- 0 to mat(0).length-1){
+            sum = sum + mat(i)(j)
+          }
+          newArr(i) = sum
+          sum = 0
+        }
+        while(cnt != k){
+          for(i <- 0 to newArr.length-1){
+            if(newArr(i) < min){
+              min = newArr(i)
+              perm = i
+            }
+          }
+          newArr(perm) = 101
+          output(cnt) = perm
+          perm = -1
+          min = 101
+          cnt = cnt + 1
+        }
+        output
+      }
+    //9
+      def intersection(nums1: Array[Int], nums2: Array[Int]): Array[Int] = {
+        (nums1 intersect nums2)
+      }
 }
