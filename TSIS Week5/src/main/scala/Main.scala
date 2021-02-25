@@ -35,4 +35,20 @@ object Main extends App{
     dayOfWeek.toString.toLowerCase().capitalize
   }
   //4
+  def findPairs(nums: Array[Int], k: Int): Int = {
+      if(k < 0) return 0
+      var sum = 0
+      val sorted = nums.sorted
+      var start = 0
+      var end = 1
+      while(end < sorted.length) {
+        if(end <= start || sorted(start) +  k > sorted(end)) end += 1
+        else if((start > 0 && sorted(start) == sorted(start - 1)) || (sorted(start) + k < sorted(end))) start += 1
+        else {
+          sum += 1
+          start += 1
+        }
+      }
+      sum
+    }
 }
