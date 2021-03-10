@@ -1,0 +1,17 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\profa\Desktop\Scala\TSIS Week5 day2\target\scala-2.13\classes ...
+[error] C:\Users\profa\Desktop\Scala\TSIS Week5 day2\src\main\scala\More Complex Sample\ChatRoom.scala:5:23: object net is not a member of package com.sun.deploy
+[error] import com.sun.deploy.net.URLEncoder
+[error]                       ^
+[error] C:\Users\profa\Desktop\Scala\TSIS Week5 day2\src\main\scala\More Complex Sample\ChatRoom.scala:33:20: not found: value URLEncoder
+[error] Error occurred in an application involving default arguments.
+[error]             name = URLEncoder.encode(screenName, StandardCharsets.UTF_8.name))
+[error]                    ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 09.03.2021 21:11:50
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
