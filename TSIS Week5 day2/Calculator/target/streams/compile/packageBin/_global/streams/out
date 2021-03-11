@@ -1,0 +1,49 @@
+[debug] Packaging C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\calculator_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Calculation$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\Calculation$.class
+[debug] 	Calculation.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\Calculation.class
+[debug] 	HelloWorld$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorld$.class
+[debug] 	HelloWorld$Greet$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorld$Greet$.class
+[debug] 	HelloWorld$Greet.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorld$Greet.class
+[debug] 	HelloWorld$Greeted$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorld$Greeted$.class
+[debug] 	HelloWorld$Greeted.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorld$Greeted.class
+[debug] 	HelloWorld.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorld.class
+[debug] 	HelloWorldBot$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorldBot$.class
+[debug] 	HelloWorldBot.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorldBot.class
+[debug] 	HelloWorldMain$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorldMain$.class
+[debug] 	HelloWorldMain$SayHello$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorldMain$SayHello$.class
+[debug] 	HelloWorldMain$SayHello.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorldMain$SayHello.class
+[debug] 	HelloWorldMain.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\HelloWorldMain.class
+[debug] 	Input$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\Input$.class
+[debug] 	Input$Number$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\Input$Number$.class
+[debug] 	Input$Number.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\Input$Number.class
+[debug] 	Input$Sign$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\Input$Sign$.class
+[debug] 	Input$Sign.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\Input$Sign.class
+[debug] 	Input.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\Input.class
+[debug] 	MainApp$.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\MainApp$.class
+[debug] 	MainApp$delayedInit$body.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\MainApp$delayedInit$body.class
+[debug] 	MainApp.class
+[debug] 	  C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes\MainApp.class
+[debug] Done packaging.

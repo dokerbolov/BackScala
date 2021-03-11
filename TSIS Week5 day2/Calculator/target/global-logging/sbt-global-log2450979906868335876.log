@@ -1,0 +1,8 @@
+[debug] > Exec(sda, None, None)
+[error] Not a valid command: sda (similar: set)
+[error] Not a valid project ID: sda
+[error] Expected ':'
+[error] Not a valid key: sda (similar: state, ps, doc)
+[error] sda
+[error]    ^
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,18 @@
+[debug] Acquiring lock on file C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\project\target\.sbt-compilation-infos\calculator-compile\.sbt-idea-lock ...
+[error] C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\src\main\scala\Calculator.scala:41:22: not found: type Operation
+[error]       var oper = new Operation {}
+[error]                      ^
+[error] C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\src\main\scala\Calculator.scala:47:22: not found: type Plus
+[error]           oper = new Plus(numbers(0).toDouble, numbers(x + 1).toDouble)
+[error]                      ^
+[error] C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\src\main\scala\Calculator.scala:51:22: not found: type Minus
+[error]           oper = new Minus(numbers(0).toDouble, numbers(x + 1).toDouble)
+[error]                      ^
+[error] C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\src\main\scala\Calculator.scala:55:22: not found: type Multiply
+[error]           oper = new Multiply(numbers(0).toDouble, numbers(x + 1).toDouble)
+[error]                      ^
+[error] C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\src\main\scala\Calculator.scala:59:22: not found: type Divide
+[error]           oper = new Divide(numbers(0).toDouble, numbers(x + 1).toDouble)
+[error]                      ^
+[error] 5 errors found
+[debug] Releasing lock on file C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\project\target\.sbt-compilation-infos\calculator-compile\.sbt-idea-lock.
