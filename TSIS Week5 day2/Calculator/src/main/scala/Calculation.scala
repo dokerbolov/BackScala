@@ -1,28 +1,22 @@
-import Input.Sign
-import akka.actor.typed.scaladsl.Behaviors
-import akka.actor.typed.scaladsl.LoggerOps
-import akka.actor.typed.{ActorRef, ActorSystem, Behavior}
+class Calculation(var numbers:Array[Double], var operators: String) {
 
-object Calculation{
+  var res: Double = 0
+  var temp:Int = 0
+  val indexedSeq = for(i <- 0 to 10 if i % 2 == 0) yield i
 
-  def start(firstValue: Double): Behavior[Input.Sign] = {
-    calc(firstValue)
+  operators(0) match {
+    case '+' => res = numbers(0) + numbers(1)
+    case '-' => res = numbers(0) - numbers(1)
+    case '*' => res = numbers(0) * numbers(1)
+    case '/' => res = numbers(0) / numbers(1)
   }
-
-  def calc(firstValue: Double):Behavior[Input.Sign] =
-    Behaviors.receive{ (context, message) =>
-      var total : Double = 0.0
-      message.str match {
-        case "+" => total = total + firstValue;
-          Behaviors.same
-        case "-" => total = total - firstValue
-          Behaviors.same
-        case "/" => total = total / firstValue
-          Behaviors.same
-        case "*" => total = total * firstValue
-          Behaviors.same
-        case "=" =>
-          Behaviors.stopped
-      }
+  for(i <- 1 to operators.length - 1; j <- 2 to numbers.length - 1){
+    operators(i) match {
+      case '+' => res += numbers(j)
+      case '*' => res *= numbers(j)
+      case '-' => res -= numbers(j)
+      case '/' => res /= numbers(j)
     }
+  }
+  def printNum() = print(res)
 }
