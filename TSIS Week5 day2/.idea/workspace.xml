@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baab6e3d-ce29-49a1-8bc6-4864c7aa45b0" name="Default Changelist" comment="" />
+    <list default="true" id="baab6e3d-ce29-49a1-8bc6-4864c7aa45b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TSIS Week4/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week3/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week3/src/main/scala/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/.idea/modules/TSIS Week4-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/.idea/modules/TSIS Week4-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/.idea/modules/TSIS Week4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/.idea/modules/TSIS Week4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$1d71dde27d91a10a532c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$1d71dde27d91a10a532c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$1d71dde27d91a10a532c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$396a6fb70a2adad88f97$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$396a6fb70a2adad88f97.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$396a6fb70a2adad88f97.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$44e4a6a89c48c1d7b05d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$44e4a6a89c48c1d7b05d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$44e4a6a89c48c1d7b05d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$8aad74500e6b639e497d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$8aad74500e6b639e497d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/config-classes/$8aad74500e6b639e497d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/target/scala-2.13/classes/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/target/scala-2.13/classes/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/target/scala-2.13/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/target/scala-2.13/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSIS Week4/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../TSIS Week4/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Calculator" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615456291025</updated>
       <workItem from="1615456301011" duration="113000" />
+      <workItem from="1615538305073" duration="43000" />
     </task>
     <servers />
   </component>
@@ -54,10 +85,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1615456408218">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1615538345951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615456408218" />
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615538345951" />
     <state x="342" y="203" key="new project wizard" timestamp="1615456412610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
