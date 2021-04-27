@@ -6,33 +6,52 @@ import org.slf4j.{Logger, LoggerFactory}
 
 object MainCalculator extends App{
 
-  final case class Symbols(myarr: Array[Double],symbols: String)
+  def calculate (equation: String): String ={
 
-  var operatorsSymbols: String = ""
-  var arr = Array[Double]()
+    var operatorsSymbols: String = ""
+    var arr = Array[Double]()
 
 
+    var perm: String = ""
+    var input: String = equation
 
-  var input = readLine()
-  while (input != "="){
-    if (input == "+" || input == "*" || input == "/" || input == "-")
-      operatorsSymbols ++= input
-    else {
-      arr = arr :+ input.toDouble
+    for (i <- 0 to input.length() - 1) {
+      if (input(i).toString == "=") {
+        arr = arr :+ perm.toDouble
+        perm = ""
+      }
+      else if (input(i).toString == "+" || input(i).toString == "-" || input(i).toString == "/" || input(i).toString == "*") {
+        operatorsSymbols = operatorsSymbols + input(i).toString()
+        arr = arr :+ perm.toDouble
+        perm = ""
+      }
+      else {
+        perm = perm + input(i).toString
+      }
     }
-    input = readLine()
+
+    var res: Double = 0
+    var temp:Int = 0
+    val indexedSeq = for(i <- 0 to 10 if i % 2 == 0) yield i
+
+    operatorsSymbols(0) match {
+      case '+' => res = arr(0) + arr(1)
+      case '-' => res = arr(0) - arr(1)
+      case '*' => res = arr(0) * arr(1)
+      case '/' => res = arr(0) / arr(1)
+    }
+    for(i <- 1 to operatorsSymbols.length - 1; j <- 2 to arr.length - 1){
+      operatorsSymbols(i) match {
+        case '+' => res += arr(j)
+        case '*' => res *= arr(j)
+        case '-' => res -= arr(j)
+        case '/' => res /= arr(j)
+      }
+    }
+    for (i <- 0 to arr.length-1) println(arr(i))
+    println(operatorsSymbols)
+    res.toString()
   }
 
-  implicit val log: Logger = LoggerFactory.getLogger(getClass)
-
-  def apply(): Behavior[Symbols] = Behaviors.setup{context =>
-    val replyTo = context.spawn(HelloWorld(), "HelloWorld")
-    Behaviors.receiveMessage{ message =>
-      context.log.info("Numbers are: {} and Symbols are: {}",message.myarr,message.symbols)
-      replyTo ! HelloWorld.Greet(message.myarr, message.symbols)
-      Behaviors.same
-    }
-  }
-  val system: ActorSystem[Symbols] = ActorSystem(MainCalculator(), "calculatorObject")
-  system ! Symbols(arr, operatorsSymbols)
+  println(calculate("1*3*2+1="))
 }

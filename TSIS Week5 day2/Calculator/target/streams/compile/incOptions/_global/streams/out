@@ -1,53 +1,5 @@
 [debug] Created transactional ClassFileManager with tempDir = C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes.bak
 [debug] About to delete class files:
-[debug] 	HelloWorldMain.class
-[debug] 	HelloWorld.class
-[debug] 	Input$.class
-[debug] 	HelloWorldMain$SayHello$.class
-[debug] 	MainApp$.class
-[debug] 	Input.class
-[debug] 	Input$Number$.class
-[debug] 	MainApp.class
-[debug] 	Input$Sign.class
-[debug] 	HelloWorldMain$.class
-[debug] 	HelloWorldBot.class
-[debug] 	HelloWorldBot$.class
-[debug] 	HelloWorld$Greeted.class
-[debug] 	Input$Number.class
-[debug] 	HelloWorldMain$SayHello.class
-[debug] 	Input$Sign$.class
-[debug] 	MainApp$delayedInit$body.class
-[debug] 	HelloWorld$.class
-[debug] 	HelloWorld$Greeted$.class
-[debug] 	Calculation.class
-[debug] 	Calculation$.class
-[debug] 	HelloWorld$Greet$.class
-[debug] 	HelloWorld$Greet.class
-[debug] We backup class files:
-[debug] 	HelloWorldMain.class
-[debug] 	HelloWorld.class
-[debug] 	Input$.class
-[debug] 	HelloWorldMain$SayHello$.class
-[debug] 	MainApp$.class
-[debug] 	Input.class
-[debug] 	Input$Number$.class
-[debug] 	MainApp.class
-[debug] 	Input$Sign.class
-[debug] 	HelloWorldMain$.class
-[debug] 	HelloWorldBot.class
-[debug] 	HelloWorldBot$.class
-[debug] 	HelloWorld$Greeted.class
-[debug] 	Input$Number.class
-[debug] 	HelloWorldMain$SayHello.class
-[debug] 	Input$Sign$.class
-[debug] 	MainApp$delayedInit$body.class
-[debug] 	HelloWorld$.class
-[debug] 	HelloWorld$Greeted$.class
-[debug] 	Calculation.class
-[debug] 	Calculation$.class
-[debug] 	HelloWorld$Greet$.class
-[debug] 	HelloWorld$Greet.class
-[debug] Registering generated classes:
 [debug] 	calculator$delayedInit$body.class
 [debug] 	calculator$Symbols.class
 [debug] 	TempOne$TempClass.class
@@ -58,4 +10,4 @@
 [debug] 	TempOne$TempClass$.class
 [debug] 	calculator$.class
 [debug] 	calculator.class
-[debug] Removing the temporary directory used for backing up class files: C:\Users\profa\Desktop\Scala\TSIS Week5 day2\Calculator\target\scala-2.13\classes.bak
+[debug] We backup class files:

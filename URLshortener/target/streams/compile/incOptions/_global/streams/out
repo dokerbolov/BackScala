@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CreateTodo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$192$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TodoRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedDecoder$macro$164$1$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Todo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$192$1$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Boot$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TodoDirectives.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedDecoder$macro$164$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ApiError$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ApiError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Boot$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$154$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$192$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$192$1$anon$macro$190$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryTodoRepository$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CreateTodoValidator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryTodoRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$154$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Boot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Validator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Router.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedDecoder$macro$164$1$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$154$1$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ValidatorDirectives.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$154$1$anon$macro$152$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Todo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CreateTodoValidator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CreateTodo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedDecoder$macro$164$1$anon$macro$162$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\classes.bak[0m
