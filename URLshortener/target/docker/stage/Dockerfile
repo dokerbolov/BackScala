@@ -3,4 +3,4 @@ WORKDIR /opt/docker
 ADD --chown=daemon:daemon opt /opt
 USER daemon
 ENTRYPOINT ["/opt/docker/bin/url"]
-CMD ["/opt/docker/bin/urlShotener"]
+CMD ["/opt/docker/bin/urlshortertask"]

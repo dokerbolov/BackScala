@@ -1,6 +1,5 @@
 import java.util.UUID
 import scala.util.hashing.MurmurHash3
-
 import scala.concurrent.{ExecutionContext, Future}
 
 object ErrorType{
@@ -28,14 +27,25 @@ class UrlMemoryRepository(initialUrls: Seq[Url] = Seq.empty)(implicit ec:Executi
 
   override def createUrlList(originalUrl: String) : Future[String] =
     Future.successful{
+        var bool: Boolean = false
         val url = Url(
           id = UUID.randomUUID().toString(),
           givenUrl = originalUrl,
           shortUrl = MurmurHash3.stringHash(originalUrl).toString,
           done = true
         )
-        urls = urls :+ url
-        val show = "https://urlsshortertask.herokuapp.com/find?shortUrl=" + url.shortUrl
+        var show = ""
+        for(check <- urls){
+          if(check.shortUrl == url.shortUrl) {
+            bool = true
+            show = "https://urlshortertask.herokuapp.com/" + check.shortUrl
+          }
+
+        }
+        if(bool == false) {
+            urls = urls :+ url
+            show = "https://urlshortertask.herokuapp.com/" + url.shortUrl
+        }
         show
     }
 

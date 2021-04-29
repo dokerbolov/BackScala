@@ -12,21 +12,22 @@ class MyRouter(urlRepository: UrlRepository)(implicit system: ActorSystem[_],  e
   extends Router
     with  Directives
     with UrlDirectives {
+
   import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._
   import io.circe.generic.auto._
 
   override def route = concat(
-    path("urls"){
-      get{
+    path("urls") {
+      get {
         parameters("originalUrl") { originalUrl =>
-          complete{
+          complete {
             HttpEntity(ContentTypes.`text/html(UTF-8)`, "done")
             urlRepository.createUrlList(originalUrl)
           }
         }
       }
     },
-    path("allUrls"){
+    path("allUrls") {
       get {
         pathEndOrSingleSlash {
           handleWithGeneric(urlRepository.all()) {
@@ -35,12 +36,11 @@ class MyRouter(urlRepository: UrlRepository)(implicit system: ActorSystem[_],  e
         }
       }
     },
-    path("find"){
-      get{
-        parameters("shortUrl"){ shortUrl =>
-          complete{
-            urlRepository.findUrl(shortUrl)
-          }
+    path(Segment) { url =>
+      get {
+        handleWithGeneric(urlRepository.findUrl(url)) { newUrl =>
+          val uri = Uri.apply(newUrl)
+          redirect(uri, StatusCodes.PermanentRedirect)
         }
       }
     }

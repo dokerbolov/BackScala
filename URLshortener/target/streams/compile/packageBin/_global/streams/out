@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\url_2.12-0.2.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\url_2.12-0.6.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ApiError$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\classes\ApiError$.class[0m
@@ -48,6 +48,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\classes\Url.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UrlDirectives.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\classes\UrlDirectives.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UrlMemoryRepository$$anon$1$UrlMacroCodec$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\classes\UrlMemoryRepository$$anon$1$UrlMacroCodec$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UrlMemoryRepository$$anon$1$UrlMacroCodec$4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\classes\UrlMemoryRepository$$anon$1$UrlMacroCodec$4$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UrlMemoryRepository$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\classes\UrlMemoryRepository$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UrlMemoryRepository$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\classes\UrlMemoryRepository$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UrlMemoryRepository.class[0m

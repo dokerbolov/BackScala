@@ -6,7 +6,7 @@ packageName in Docker := "url"
 
 name := "url"
 
-version := "0.2"
+version := "0.6"
 
 scalaVersion := "2.13.5"
 
@@ -32,11 +32,15 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.5" % Test,
 
   "ch.qos.logback" % "logback-classic" % "1.2.3",
+
+  "org.mongodb.scala" %% "mongo-scala-driver" % "4.2.3",
 )
 
 dockerCommands := dockerCommands.value.map {
   case ExecCmd("CMD", _ @ _*) =>
-    ExecCmd("CMD", "/opt/docker/bin/urlShotener")
+    ExecCmd("CMD", "/opt/docker/bin/urlshortertask")
   case other =>
     other
 }
+
+// 062dc994aae0 01e79041-750f-4e0c-974f-6a9930929f9a
