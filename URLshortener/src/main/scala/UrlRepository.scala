@@ -3,6 +3,10 @@ import scala.util.hashing.MurmurHash3
 
 import scala.concurrent.{ExecutionContext, Future}
 
+object ErrorType{
+  final case class NoSuchUrl(url:Url) extends Exception("No such Url")
+}
+
 trait UrlRepository{
   def all(): Future[Seq[Url]]
 
@@ -24,29 +28,33 @@ class UrlMemoryRepository(initialUrls: Seq[Url] = Seq.empty)(implicit ec:Executi
 
   override def createUrlList(originalUrl: String) : Future[String] =
     Future.successful{
-      val url = Url(
-        id = UUID.randomUUID().toString(),
-        givenUrl = originalUrl,
-        shortUrl = MurmurHash3.stringHash(originalUrl).toString,
-        done = true
-      )
-      urls = urls :+ url
-      val show = "localhost:9000/find?shortUrl=" + url.shortUrl
-      show
+        val url = Url(
+          id = UUID.randomUUID().toString(),
+          givenUrl = originalUrl,
+          shortUrl = MurmurHash3.stringHash(originalUrl).toString,
+          done = true
+        )
+        urls = urls :+ url
+        val show = "https://urlsshortertask.herokuapp.com/find?shortUrl=" + url.shortUrl
+        show
     }
 
   override def findUrl(shortUrl: String): Future[String] =
-    Future.successful{
-      var mainUrl:String = ""
-        for(url <- urls){
-          if (url.shortUrl == shortUrl ){
-            mainUrl = url.givenUrl
-          }
-          else{
-            mainUrl = "No such url"
-          }
+    Future.successful {
+      var mainUrl: String = ""
+      var bool: Boolean = false
+      for (url <- urls) {
+        if (url.shortUrl == shortUrl) {
+          mainUrl = url.givenUrl
+          bool = true
+        }
       }
-      mainUrl
+      if (bool) {
+          mainUrl
+      }
+      else {
+        val show = "No such Directory"
+        show
+      }
     }
-
 }

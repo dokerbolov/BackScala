@@ -1,37 +1,36 @@
-[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t url:0.1 .[0m
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t url:0.2 .[0m
 [0m[[0m[0mdebug[0m] [0m[0mWorking directory C:\Users\profa\Desktop\Scala\URLshortener\target\docker\stage[0m
-[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
-[0m[[0m[31merror[0m] [0m[0m#2 sha256:3670ede1575b46fb5ed77ecc7d9867eedccaf702aa10f766899d8937d4c5b7ee[0m
-[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 0.0s[0m
-[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B 0.0s done[0m
-[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.1s[0m
 [0m[[0m[31merror[0m] [0m[0m#1 [internal] load build definition from Dockerfile[0m
-[0m[[0m[31merror[0m] [0m[0m#1 sha256:101ee42dc1f71a598e1f00657e2e55081dff8b96f7b036f97d83833e5d4ea920[0m
-[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 199B 0.1s done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 sha256:76caa769bddc5ba2cde6d51e28632589a9ff3bda5d06f8c6ee4f8229bf2e91db[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 30B[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring dockerfile: 203B 0.2s done[0m
 [0m[[0m[31merror[0m] [0m[0m#1 DONE 0.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#2 sha256:dd415b8fa779871d75fd8bb4a92de2b682f24ff3ce0bd0cab0bf58c45ac6e4f0[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
 [0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:8-jre-alpine[0m
 [0m[[0m[31merror[0m] [0m[0m#3 sha256:54c6f6c810fe8adaea295f024fab13dc1a9a70e363a76f4d0bfb6e7ae191ebae[0m
-[0m[[0m[31merror[0m] [0m[0m#3 DONE 9.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 2.7s[0m
 [0m[[0m[31merror[0m] [0m[0m#4 [1/3] FROM docker.io/library/openjdk:8-jre-alpine@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193[0m
 [0m[[0m[31merror[0m] [0m[0m#4 sha256:0fa9d77ffba4c0cfb36bec29d2e0b02d36226b626b50f29355d5a97517be8e0b[0m
 [0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
 [0m[[0m[31merror[0m] [0m[0m#6 [internal] load build context[0m
-[0m[[0m[31merror[0m] [0m[0m#6 sha256:4d43e6c0191eae20e6bfae8168e6d1ec281f56148a07b74d0ab5d1987f1d42b7[0m
-[0m[[0m[31merror[0m] [0m[0m#6 transferring context: 23B[0m
-[0m[[0m[31merror[0m] [0m[0m#6 transferring context: 91.63kB 0.8s done[0m
-[0m[[0m[31merror[0m] [0m[0m#6 DONE 0.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#6 sha256:44fe8048cd4441da4a972a45ceeac84432b266e7ae289fc4d768a401e422343e[0m
+[0m[[0m[31merror[0m] [0m[0m#6 transferring context: 65.82kB 0.4s done[0m
+[0m[[0m[31merror[0m] [0m[0m#6 DONE 0.5s[0m
 [0m[[0m[31merror[0m] [0m[0m#5 [2/3] WORKDIR /opt/docker[0m
 [0m[[0m[31merror[0m] [0m[0m#5 sha256:f3f59e8ad8ac9263708c740a121756ee62429c19b6156e19fe50bd0cc8b8f77e[0m
 [0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m
 [0m[[0m[31merror[0m] [0m[0m#7 [3/3] ADD --chown=daemon:daemon opt /opt[0m
-[0m[[0m[31merror[0m] [0m[0m#7 sha256:7640e5d3dee6acbe0da05f610268902102e2dc5939e1b671d550fcafc1006b64[0m
-[0m[[0m[31merror[0m] [0m[0m#7 DONE 0.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#7 sha256:9a940b68681a8d374fc9126301caa726ac69a618ed1bf9d6a463e02907305613[0m
+[0m[[0m[31merror[0m] [0m[0m#7 DONE 1.0s[0m
 [0m[[0m[31merror[0m] [0m[0m#8 exporting to image[0m
 [0m[[0m[31merror[0m] [0m[0m#8 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m
 [0m[[0m[31merror[0m] [0m[0m#8 exporting layers[0m
-[0m[[0m[31merror[0m] [0m[0m#8 exporting layers 0.3s done[0m
-[0m[[0m[31merror[0m] [0m[0m#8 writing image sha256:f4987eeeb3c628fed72fd16623cb22d732af12e3c8d07476b5452dac3d1917a0 done[0m
-[0m[[0m[31merror[0m] [0m[0m#8 naming to docker.io/library/url:0.1 done[0m
-[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 exporting layers 0.5s done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 writing image sha256:9570c388ab45b69a53fdfbf77573375ac6d97bf483e1e078f675df8fb128f0ed done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 naming to docker.io/library/url:0.2 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.6s[0m
 [0m[[0m[0minfo[0m] [0m[0mUse 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them[0m
-[0m[[0m[0minfo[0m] [0m[0mBuilt image url with tags [0.1][0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image url with tags [0.2][0m

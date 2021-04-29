@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\url_2.12-0.1-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\profa\Desktop\Scala\URLshortener\target\scala-2.12\url_2.12-0.2-sources.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\resources\application.conf[0m
@@ -8,20 +8,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\ApiError.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Boot.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\Boot.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	InMemoryTodoRepository.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\InMemoryTodoRepository.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MyRouter.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\MyRouter.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MyServer.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\MyServer.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Todo.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\Todo.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	TodoDirectives.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\TodoDirectives.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	TodoRepository.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\TodoRepository.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Validator.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\Validator.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ValidatorDirectives.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\ValidatorDirectives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Url.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\Url.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UrlDirectives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\UrlDirectives.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UrlRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\profa\Desktop\Scala\URLshortener\src\main\scala\UrlRepository.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

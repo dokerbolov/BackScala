@@ -69,10 +69,10 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="index.html" class="extype" name="_root_">root</a></dd></dl></div>
-    </li><li name="_root_.TodoRepository" visbl="pub" class="indented1 current" data-isabs="true" fullComment="yes" group="Ungrouped">
-      <a id="TodoRepositoryextendsAnyRef"></a><a id="TodoRepository:TodoRepository"></a>
+    </li><li name="_root_.UrlRepository" visbl="pub" class="indented1 current" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="UrlRepositoryextendsAnyRef"></a><a id="UrlRepository:UrlRepository"></a>
       <span class="permalink">
-      <a href="index.html#TodoRepositoryextendsAnyRef" title="Permalink">
+      <a href="index.html#UrlRepositoryextendsAnyRef" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -81,7 +81,7 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <span class="name">TodoRepository</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+        <span class="name">UrlRepository</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="index.html" class="extype" name="_root_">root</a></dd></dl></div>
@@ -94,8 +94,8 @@
       <div id="definition">
         <div class="big-circle trait">t</div>
         
-        <h1>TodoRepository<span class="permalink">
-      <a href="TodoRepository.html" title="Permalink">
+        <h1>UrlRepository<span class="permalink">
+      <a href="UrlRepository.html" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span></h1>
@@ -108,7 +108,7 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <span class="name">TodoRepository</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+        <span class="name">UrlRepository</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
 
@@ -122,7 +122,7 @@
             <span class="toggle">
               Known Subclasses
             </span>
-            <div class="subClasses hiddenContent"><a href="InMemoryTodoRepository.html" class="extype" name="InMemoryTodoRepository">InMemoryTodoRepository</a></div>
+            <div class="subClasses hiddenContent"><a href="UrlMemoryRepository.html" class="extype" name="UrlMemoryRepository">UrlMemoryRepository</a></div>
           </div></div>
         
 
@@ -148,7 +148,7 @@
                   <span class="filtertype">Inherited<br />
                   </span>
                   <ol id="linearization">
-                    <li class="in" name="TodoRepository"><span>TodoRepository</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                    <li class="in" name="UrlRepository"><span>UrlRepository</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
                   </ol>
                 </div><div class="ancestors">
               <span class="filtertype"></span>
@@ -172,10 +172,10 @@
 
         <div class="values members">
               <h3>Abstract Value Members</h3>
-              <ol><li name="TodoRepository#all" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
-      <a id="all():scala.concurrent.Future[Seq[Todo]]"></a><a id="all():Future[Seq[Todo]]"></a>
+              <ol><li name="UrlRepository#all" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="all():scala.concurrent.Future[Seq[Url]]"></a><a id="all():Future[Seq[Url]]"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#all():scala.concurrent.Future[Seq[Todo]]" title="Permalink">
+      <a href="UrlRepository.html#all():scala.concurrent.Future[Seq[Url]]" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -184,14 +184,14 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">all</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.concurrent.Future">Future</span>[<span class="extype" name="scala.Seq">Seq</span>[<a href="Todo.html" class="extype" name="Todo">Todo</a>]]</span>
+        <span class="name">all</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.concurrent.Future">Future</span>[<span class="extype" name="scala.Seq">Seq</span>[<a href="Url.html" class="extype" name="Url">Url</a>]]</span>
       </span>
       
       
-    </li><li name="TodoRepository#create" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
-      <a id="create(createTodo:CreateTodo):scala.concurrent.Future[Todo]"></a><a id="create(CreateTodo):Future[Todo]"></a>
+    </li><li name="UrlRepository#createUrlList" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="createUrlList(originalUrl:String):scala.concurrent.Future[String]"></a><a id="createUrlList(String):Future[String]"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#create(createTodo:CreateTodo):scala.concurrent.Future[Todo]" title="Permalink">
+      <a href="UrlRepository.html#createUrlList(originalUrl:String):scala.concurrent.Future[String]" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -200,14 +200,14 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">create</span><span class="params">(<span name="createTodo">createTodo: <a href="CreateTodo.html" class="extype" name="CreateTodo">CreateTodo</a></span>)</span><span class="result">: <span class="extype" name="scala.concurrent.Future">Future</span>[<a href="Todo.html" class="extype" name="Todo">Todo</a>]</span>
+        <span class="name">createUrlList</span><span class="params">(<span name="originalUrl">originalUrl: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.concurrent.Future">Future</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
       </span>
       
       
-    </li><li name="TodoRepository#done" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
-      <a id="done():scala.concurrent.Future[Seq[Todo]]"></a><a id="done():Future[Seq[Todo]]"></a>
+    </li><li name="UrlRepository#done" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="done():scala.concurrent.Future[Seq[Url]]"></a><a id="done():Future[Seq[Url]]"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#done():scala.concurrent.Future[Seq[Todo]]" title="Permalink">
+      <a href="UrlRepository.html#done():scala.concurrent.Future[Seq[Url]]" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -216,14 +216,14 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">done</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.concurrent.Future">Future</span>[<span class="extype" name="scala.Seq">Seq</span>[<a href="Todo.html" class="extype" name="Todo">Todo</a>]]</span>
+        <span class="name">done</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.concurrent.Future">Future</span>[<span class="extype" name="scala.Seq">Seq</span>[<a href="Url.html" class="extype" name="Url">Url</a>]]</span>
       </span>
       
       
-    </li><li name="TodoRepository#pending" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
-      <a id="pending():scala.concurrent.Future[Seq[Todo]]"></a><a id="pending():Future[Seq[Todo]]"></a>
+    </li><li name="UrlRepository#findUrl" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="findUrl(shortUrl:String):scala.concurrent.Future[String]"></a><a id="findUrl(String):Future[String]"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#pending():scala.concurrent.Future[Seq[Todo]]" title="Permalink">
+      <a href="UrlRepository.html#findUrl(shortUrl:String):scala.concurrent.Future[String]" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -232,7 +232,7 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">pending</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.concurrent.Future">Future</span>[<span class="extype" name="scala.Seq">Seq</span>[<a href="Todo.html" class="extype" name="Todo">Todo</a>]]</span>
+        <span class="name">findUrl</span><span class="params">(<span name="shortUrl">shortUrl: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.concurrent.Future">Future</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
       </span>
       
       
@@ -245,7 +245,7 @@
                 <li name="scala.AnyRef#!=" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="!=(x$1:Any):Boolean"></a><a id="!=(Any):Boolean"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#!=(x$1:Any):Boolean" title="Permalink">
+      <a href="UrlRepository.html#!=(x$1:Any):Boolean" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -261,7 +261,7 @@
     </li><li name="scala.AnyRef###" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="##():Int"></a>
       <span class="permalink">
-      <a href="TodoRepository.html###():Int" title="Permalink">
+      <a href="UrlRepository.html###():Int" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -277,7 +277,7 @@
     </li><li name="scala.AnyRef#==" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="==(x$1:Any):Boolean"></a><a id="==(Any):Boolean"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#==(x$1:Any):Boolean" title="Permalink">
+      <a href="UrlRepository.html#==(x$1:Any):Boolean" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -293,7 +293,7 @@
     </li><li name="scala.Any#asInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="asInstanceOf[T0]:T0"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#asInstanceOf[T0]:T0" title="Permalink">
+      <a href="UrlRepository.html#asInstanceOf[T0]:T0" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -309,7 +309,7 @@
     </li><li name="scala.AnyRef#clone" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="clone():Object"></a><a id="clone():AnyRef"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#clone():Object" title="Permalink">
+      <a href="UrlRepository.html#clone():Object" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -333,7 +333,7 @@
     </li><li name="scala.AnyRef#eq" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="eq(x$1:AnyRef):Boolean"></a><a id="eq(AnyRef):Boolean"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#eq(x$1:AnyRef):Boolean" title="Permalink">
+      <a href="UrlRepository.html#eq(x$1:AnyRef):Boolean" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -349,7 +349,7 @@
     </li><li name="scala.AnyRef#equals" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="equals(x$1:Any):Boolean"></a><a id="equals(Any):Boolean"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#equals(x$1:Any):Boolean" title="Permalink">
+      <a href="UrlRepository.html#equals(x$1:Any):Boolean" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -365,7 +365,7 @@
     </li><li name="scala.AnyRef#finalize" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="finalize():Unit"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#finalize():Unit" title="Permalink">
+      <a href="UrlRepository.html#finalize():Unit" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -387,7 +387,7 @@
     </li><li name="scala.AnyRef#getClass" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="getClass():Class[_]"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#getClass():Class[_]" title="Permalink">
+      <a href="UrlRepository.html#getClass():Class[_]" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -406,7 +406,7 @@
     </li><li name="scala.AnyRef#hashCode" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="hashCode():Int"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#hashCode():Int" title="Permalink">
+      <a href="UrlRepository.html#hashCode():Int" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -425,7 +425,7 @@
     </li><li name="scala.Any#isInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isInstanceOf[T0]:Boolean"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#isInstanceOf[T0]:Boolean" title="Permalink">
+      <a href="UrlRepository.html#isInstanceOf[T0]:Boolean" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -441,7 +441,7 @@
     </li><li name="scala.AnyRef#ne" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ne(x$1:AnyRef):Boolean"></a><a id="ne(AnyRef):Boolean"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#ne(x$1:AnyRef):Boolean" title="Permalink">
+      <a href="UrlRepository.html#ne(x$1:AnyRef):Boolean" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -457,7 +457,7 @@
     </li><li name="scala.AnyRef#notify" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="notify():Unit"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#notify():Unit" title="Permalink">
+      <a href="UrlRepository.html#notify():Unit" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -476,7 +476,7 @@
     </li><li name="scala.AnyRef#notifyAll" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="notifyAll():Unit"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#notifyAll():Unit" title="Permalink">
+      <a href="UrlRepository.html#notifyAll():Unit" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -495,7 +495,7 @@
     </li><li name="scala.AnyRef#synchronized" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="synchronized[T0](x$1:=&gt;T0):T0"></a><a id="synchronized[T0](⇒T0):T0"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#synchronized[T0](x$1:=&gt;T0):T0" title="Permalink">
+      <a href="UrlRepository.html#synchronized[T0](x$1:=&gt;T0):T0" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -511,7 +511,7 @@
     </li><li name="scala.AnyRef#toString" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="toString():String"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#toString():String" title="Permalink">
+      <a href="UrlRepository.html#toString():String" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -527,7 +527,7 @@
     </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="wait():Unit"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#wait():Unit" title="Permalink">
+      <a href="UrlRepository.html#wait():Unit" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -549,7 +549,7 @@
     </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="wait(x$1:Long,x$2:Int):Unit"></a><a id="wait(Long,Int):Unit"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#wait(x$1:Long,x$2:Int):Unit" title="Permalink">
+      <a href="UrlRepository.html#wait(x$1:Long,x$2:Int):Unit" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -571,7 +571,7 @@
     </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="wait(x$1:Long):Unit"></a><a id="wait(Long):Unit"></a>
       <span class="permalink">
-      <a href="TodoRepository.html#wait(x$1:Long):Unit" title="Permalink">
+      <a href="UrlRepository.html#wait(x$1:Long):Unit" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>

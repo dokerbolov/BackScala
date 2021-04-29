@@ -1,6 +1,7 @@
+import ErrorType.NoSuchUrl
+
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
-
 import akka.http.scaladsl.server.{Directive1, Directives}
 
 trait UrlDirectives extends Directives {

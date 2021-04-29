@@ -6,4 +6,5 @@ object ApiError {
   private def apply(statusCode: StatusCode, message: String): ApiError = new ApiError(statusCode, message)
 
   val generic: ApiError = new ApiError(StatusCodes.InternalServerError, "Unknown error.")
+  val noSuchUrl: ApiError = new ApiError(StatusCodes.BadRequest, message = "No such url")
 }

@@ -6,7 +6,7 @@ packageName in Docker := "url"
 
 name := "url"
 
-version := "0.1"
+version := "0.2"
 
 scalaVersion := "2.13.5"
 
