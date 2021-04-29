@@ -6,7 +6,7 @@ packageName in Docker := "week9-10"
 
 name := "week9-10"
 
-version := "0.1"
+version := "0.2"
 
 scalaVersion := "2.13.5"
 
@@ -36,7 +36,9 @@ libraryDependencies ++= Seq(
 
 dockerCommands := dockerCommands.value.map {
   case ExecCmd("CMD", _ @ _*) =>
-    ExecCmd("CMD", "/opt/docker/bin/week10x")
+    ExecCmd("CMD", "/opt/docker/bin/week9-10")
   case other =>
     other
 }
+
+//535a9b25d239  01e79041-750f-4e0c-974f-6a9930929f9a

@@ -36,7 +36,7 @@ libraryDependencies ++= Seq(
 
 dockerCommands := dockerCommands.value.map {
   case ExecCmd("CMD", _ @ _*) =>
-    ExecCmd("CMD", "/opt/docker/bin/week10x")
+    ExecCmd("CMD", "/opt/docker/bin/urlShotener")
   case other =>
     other
 }

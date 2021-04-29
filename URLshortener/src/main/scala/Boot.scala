@@ -15,14 +15,11 @@ object Boot extends App {
     implicit val ec = context.executionContext
     implicit val sys = context.system
 
-    val mockTodos:Seq[Todo] = Seq(
-      Todo("1","title1","description1",true),
-      Todo("2","title2","description2",false)
+    val mockUrls:Seq[Url] = Seq(
     )
 
-    val todos = new InMemoryTodoRepository(mockTodos)
-
-    val router = new MyRouter(todos)
+    val urls = new UrlMemoryRepository(mockUrls)
+    val router = new MyRouter(urls)
 
     MyServer.startHttpServer(router.route)
     Behaviors.empty

@@ -4,6 +4,10 @@ import akka.http.scaladsl.model.StatusCodes
 
 import scala.concurrent.{ExecutionContext, Future}
 
+object ErrorType{
+  final case class DublicateTitle(createTodo: CreateTodo) extends Exception("Title Exists")
+}
+
 class InMemoryTodoRepository(initialTodos:Seq[Todo] = Seq.empty)(implicit ec:ExecutionContext) extends TodoRepository {
 
   private var todos: Vector[Todo] = initialTodos.toVector
@@ -17,8 +21,8 @@ class InMemoryTodoRepository(initialTodos:Seq[Todo] = Seq.empty)(implicit ec:Exe
   override def create(createTodo: CreateTodo): Future[Todo] =
     todos.find(_.title == createTodo.title) match {
       case Some(_) =>
-        Future.failed{
-          new Exception("Title exists")
+        Future.failed {
+          ErrorType.DublicateTitle(createTodo)
         }
       case None =>
         Future.successful {

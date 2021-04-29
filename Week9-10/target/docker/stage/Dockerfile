@@ -3,4 +3,4 @@ WORKDIR /opt/docker
 ADD --chown=daemon:daemon opt /opt
 USER daemon
 ENTRYPOINT ["/opt/docker/bin/week9-10"]
-CMD ["/opt/docker/bin/week10x"]
+CMD ["/opt/docker/bin/week9-10"]

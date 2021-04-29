@@ -1,6 +1,7 @@
+import ErrorType.DublicateTitle
+
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
-
 import akka.http.scaladsl.server.{Directive1, Directives}
 
 trait TodoDirectives extends Directives {
@@ -16,7 +17,21 @@ trait TodoDirectives extends Directives {
       complete(apiError.statusCode, apiError.message)
   }
 
+  def handleWithError[T](f: Future[T]): Directive1[T] = onComplete(f) flatMap {
+    case Success(t) =>
+      provide(t)
+    case Failure(error) =>
+      val apiError = error match {
+        case sameTitle: DublicateTitle => ApiError.dublicateTitle
+        case _ => ApiError.generic
+      }
+      complete(apiError.statusCode, apiError.message)
+  }
+
   def handleWithGeneric[T](f: Future[T]): Directive1[T] =
     handle[T](f)(_ => ApiError.generic)
 
 }
+
+
+// 08041c3e5162  01e79041-750f-4e0c-974f-6a9930929f9a

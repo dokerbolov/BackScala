@@ -1,0 +1,1 @@
+case class Url(id:String, givenUrl:String, shortUrl: String, done: Boolean)

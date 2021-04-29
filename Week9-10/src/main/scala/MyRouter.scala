@@ -33,7 +33,7 @@ class MyRouter(todoRepository: TodoRepository, calculatorRepository: CalculatorR
           post {
             entity(as[CreateTodo]) { createTodo =>
               validateWith(CreateTodoValidator)(createTodo){
-                handleWithGeneric(todoRepository.create(createTodo)){todo => complete(todo)}
+                handleWithError(todoRepository.create(createTodo)){todo => complete(todo)}
               }
             }
           }
